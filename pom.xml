@@ -6,7 +6,7 @@
 
 	<groupId>de.fjobilabs.testing</groupId>
 	<artifactId>junit5-mockito-extension</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>JUnit 5 Mockito Extension</name>
