@@ -3,11 +3,11 @@ pipeline {
   triggers{
     bitbucketPush()
   }
+  tools {
+    jdk "jdk-9"
+  }
   stages {
     stage('Build') {
-      tools {
-        jdk "jdk-9"
-      }
       steps {
         sh 'mvn -B clean install'
       }
