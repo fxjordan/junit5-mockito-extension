@@ -4,7 +4,7 @@ pipeline {
     bitbucketPush()
   }
   tools {
-    jdk "jdk-9"
+    jdk "jdk-8"
   }
   stages {
     stage('Build') {
